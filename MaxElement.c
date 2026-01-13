@@ -20,6 +20,7 @@ int main(){
         }
     }
   }
-  printf("The Maximum Element is: %d",ac[0]);
+  printf("The Maximum Element is: %d\n",ac[0]);
+  printf("The Minimum Element is: %d",ac[n-1]);
    return 0;
 }
