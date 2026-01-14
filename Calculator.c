@@ -37,7 +37,7 @@ int main(){
         printf("Invalid Opeator Selected");
      }
     
-    printf("\nPRESS ENTER TO EXIT...");
+    printf("\nPRESS ENTER TO EXIT....");
     getch();
     getch();
 
