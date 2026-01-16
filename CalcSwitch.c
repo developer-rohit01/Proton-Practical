@@ -21,15 +21,12 @@ int main(){
         case '-':
          printf("%d - %d = %d",a,b,a-b);
         break;
-
         case '*':
          printf("%d * %d = %d",a,b,a*b);
         break;
-
          case '/':
          printf("%d / %d = %d",a,b,a/b);
         break;
-
           case '%':
          printf("Remainder when %d is divided by %d = %d",a,b,a%b);
         break;
