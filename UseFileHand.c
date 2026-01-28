@@ -58,5 +58,10 @@ int main() {
 
     fclose(fp);
 
+    printf("\nEnter to Exit");
+    getchar();
+    getchar();
+    
+
     return 0;
 }
