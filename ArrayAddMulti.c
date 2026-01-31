@@ -6,14 +6,17 @@ int main() {
 
     printf("Enter size of square matrix (n x n): ");
     scanf("%d", &n);
+    
 
+    //getting input in matrices a
     printf("Enter elements of Matrix A:\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             scanf("%d", &A[i][j]);
         }
     }
-
+    
+    //getting input in matrices b
     printf("Enter elements of Matrix B:\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -43,7 +46,8 @@ int main() {
             }
         }
     }
-
+   
+    // Displaying Results a + b
     printf("\nMatrix Addition Result:\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -51,7 +55,7 @@ int main() {
         }
         printf("\n");
     }
-
+    // Displaying Results a * b
     printf("\nMatrix Multiplication Result:\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
