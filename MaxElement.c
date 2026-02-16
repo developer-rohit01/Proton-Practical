@@ -20,6 +20,14 @@ int main(){
         }
     }
   }
+  printf("sorted array is: ");
+  for(int i=0; i<n; i++){
+    printf("%d ",ac[i]);
+  }
+
+  printf("\nsecond maximum element is: %d\n",ac[1]);
+  printf("\nsecond minimum element is: %d\n",ac[n-2]);
+
   printf("The Maximum Element is: %d\n",ac[0]);
   printf("The Minimum Element is: %d",ac[n-1]);
 
