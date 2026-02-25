@@ -58,7 +58,7 @@ int main() {
 
     fclose(fp);
 
-    printf("\nEnter to Exit");
+    printf("\n...Enter to Exit");
     getchar();
     getchar();
     
