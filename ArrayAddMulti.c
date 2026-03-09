@@ -2,7 +2,8 @@
 
 int main() {
     int n;
-    int A[10][10], B[10][10], add[10][10], mul[10][10];
+    int sizww=10;
+    int A[sizww][sizww], B[10][10], add[10][10], mul[10][10];
 
     printf("Enter size of square matrix (n x n): ");
     scanf("%d", &n);
